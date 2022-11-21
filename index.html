@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Todo List</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1 style="text-align: center;">Todo List</h1>
+            <label for="todo">Write Your Todo:</label><br><br>
+            <input type="text" id="input" placeholder="Write your Todo"><br><br>
+            
+            
+            <button type="submit" style="cursor:pointer">ADD TASK</button><br><br>
+            <div id="msg" style="color:red;font-size:2rem;"></div>
+            
+        </form>
+
+        <div class="todo-list">
+            
+            <div class="sm">
+                <div onClick = showRed(this) id="high">Check High Priority Tasks</div>
+                <div onClick = showYellow(this) id ="low">Check Moderate priority Tasks</div>
+            </div>
+            <div id="posts">
+              
+
+            </div>
+
+
+        </div>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>

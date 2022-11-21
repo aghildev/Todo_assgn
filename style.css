@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:3rem */
+    width:50%;
+    margin-inline:auto;
+    border:5px solid black;
+    padding:2em;
+
+}
+
+input{
+    width:240px;
+    height:50px;
+}
+
+.priority-boxes{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.priority-boxes div{
+  width:45%;
+  border:1px solid black;
+  height:50px;
+  cursor:pointer;
+
+
+}
+
+button{
+    padding:1.5em;
+}
+
+.yellow{
+    background-color:yellow;
+    
+}
+
+.red{
+    background-color:red;
+    color:#fff;
+}
+
+#posts div{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:3rem;
+    border:3px solid black;
+    padding:1em;
+    height:40px;
+}
+
+.options span{
+    margin-left: 3rem;
+    border:1px solid black;
+    padding:.5em;
+}
+.options i{
+    margin-left:1rem;
+    cursor: pointer;
+    /* font-size: 1.25rem; */
+}
+
+#yellow,.yellow{
+    background-color:yellow;
+    font-weight: bold;
+    cursor: pointer;
+    /* font-size:1.1rem; */
+}
+
+#red,.red{
+    background-color:red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+}
+
+.sm{
+    display: flex;
+    gap:10px;
+}
+
+.sm div{
+    border:1px solid black;
+    padding:3em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+
+#high{
+    background-color:red;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+
+#low{
+    background-color:yellow;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+
+
+
+.main{
+    font-weight: bold;
+    font-size:1.25rem;
+    font-style:italic;
+}
