@@ -9,12 +9,12 @@ let msg = document.getElementById("msg");
 let posts = document.getElementById("posts");
 let newTodo = document.querySelector("#posts div")
 
-const listItem = document.querySelector(".listItem")
+// const listItem = document.querySelector(".listItem")
 
-const highPriorityEl = document.querySelector("#red");
-let lowPriorityEl = document.querySelector("#yellow");
+// const highPriorityEl = document.querySelector("#red");
+// let lowPriorityEl = document.querySelector("#yellow");
 
-const searchEl = document.querySelector("#search")
+// const searchEl = document.querySelector("#search")
 
 formEl.addEventListener("submit", (e) => {
     e.preventDefault();
